@@ -14,10 +14,10 @@ public class FixDebugSix4
          " random numbers" +
          "\nbetween the low and high values you enter" +
          "\nEnter low value now... ");
-      low = input.nextInt();
-      System.out.print("Enter high value... ");
       high = input.nextInt();
-      while(low > high)
+      System.out.print("Enter high value... ");
+      low = input.nextInt();
+      while(low > high);
       {
          System.out.println("The number you entered for a high number, " +
             high + ", is not more than " + low);
@@ -25,7 +25,7 @@ public class FixDebugSix4
          high = input.nextInt();
       }
 
-      while(count < NUM)
+      while(count < NUM);
       {
          double result = Math.random();
           // random() returns value between 0 and 1
@@ -35,7 +35,7 @@ public class FixDebugSix4
          if(answer <= high)
          {
             System.out.print(answer + "  ");
-            ++count;
+            count = count - 1;
          }
       }
       System.out.println();
