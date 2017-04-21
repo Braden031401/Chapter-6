@@ -9,7 +9,7 @@ public class FixDebugSix1
       final int DAYS = 30;
       double money = 0.01;
       int day = 1;
-      while(day < DAYS)
+      while(day > DAYS)
       {
          money = 2 * money;
          ++day;
