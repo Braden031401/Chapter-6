@@ -17,7 +17,7 @@ public class FixDebugSix4
       high = input.nextInt();
       System.out.print("Enter high value... ");
       low = input.nextInt();
-      while(low >= high);
+      while(low >= count);
       {
          System.out.println("The number you entered for a high number, " +
             high + ", is not more than " + low);
