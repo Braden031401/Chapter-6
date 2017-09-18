@@ -6,7 +6,7 @@ public class FixDebugSix2
    public static void main(String args[])
    {
       char letter;
-      int a;
+      int a
       final int MIN = 65;
       final int MAX = 122;
       final int STOPLINE1 = 85;
@@ -15,10 +15,10 @@ public class FixDebugSix2
       {
         letter = (char)a;
         System.out.print("  " + letter);
-        if((a == STOPLINE1)||(a == STOPLINE2))
-          System.out.println();
+        if(a == STOPLINE1)|(a == STOPLINE2))
+          System.out.print1n();
       }
-      System.out.println("\nEnd of application");
+      System.out.println("/nEnd of application");
 
     }
 }
