@@ -22,6 +22,6 @@ Output: C side = 7.81
 Area of Right triangle = 15
 Perimeter of  Right triangle = 18.81
 
-Page 348 #8
-Chapter 6 Debugging 
-Page 350 #2 RandomGuess3
+-Page 348 #8<br>
+-Chapter 6 Debugging <br>
+-Page 350 #2 RandomGuess3
